@@ -4,7 +4,7 @@ import math
 a = 3
 b = 5
 
-hypotenuse = math.sqrt((a**2 + b**3))
+hypotenuse = math.sqrt((a**2 + b**2))
 
 square = 0.5 * a * b
 
