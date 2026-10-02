@@ -24,7 +24,7 @@ my_dict['list'].pop(1)
 
 print(my_dict['list'])
 
-my_dict['dict']['i am a tuple'] = '12'
+my_dict['dict'][('i am a tuple',)] = '12'
 my_dict['dict'].pop(1)
 
 print(my_dict['dict'])
