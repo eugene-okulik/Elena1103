@@ -5,8 +5,8 @@ words = text.split()
 
 for word in words:
     if word.endswith(','):
-        print(word.replace(',', '')+'ing'+',')
+        print(word.replace(',', '') + 'ing' + ',')
     elif word.endswith('.'):
-        print(word.replace('.', '')+'ing'+'.')
+        print(word.replace('.', '') + 'ing' + '.')
     else:
-        print(word+'ing')
+        print(word + 'ing')
