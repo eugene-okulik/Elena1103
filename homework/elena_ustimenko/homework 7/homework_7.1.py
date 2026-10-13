@@ -1,4 +1,6 @@
 def guess_number(a):
+
+
     while True:
         input_number = int(input('Enter a number and try to guess: '))
         if input_number == a:
