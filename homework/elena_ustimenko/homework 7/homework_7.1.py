@@ -7,4 +7,5 @@ def guess_number(a):
         elif input_number != a:
             print("попробуйте снова")
 
+
 guess_number(1)
