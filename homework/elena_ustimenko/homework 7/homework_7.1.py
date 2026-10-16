@@ -6,3 +6,5 @@ def guess_number(a):
             break
         elif input_number != a:
             print("попробуйте снова")
+
+guess_number(1)
