@@ -17,6 +17,7 @@ def fibonachi_progression(limit=100):
             first_num = second_num
             second_num = num
 
+
 count = 0
 
 for number in fibonachi_progression(100000):
