@@ -1,9 +1,12 @@
-def fibonachi_progression(limit=100):
+import sys
+
+
+def fibonachi_progression():
     first_num = 0
     second_num = 1
     num = 0
     count = 0
-    while count < limit:
+    while True:
         if count == 0:
             yield first_num
             count += 1
@@ -18,9 +21,10 @@ def fibonachi_progression(limit=100):
             second_num = num
 
 
+sys.set_int_max_str_digits(0)
 count = 0
 
-for number in fibonachi_progression(100000):
+for number in fibonachi_progression():
     if count == 4:
         print(number)
     elif count == 199:
