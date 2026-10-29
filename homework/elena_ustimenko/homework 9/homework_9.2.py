@@ -9,7 +9,7 @@ hot_temp_list = list(hot_temperatures)
 
 max_temp = max(hot_temp_list)
 min_temp = min(hot_temp_list)
-middle_temp = sum(temperatures) / len(temperatures)
+middle_temp = sum(hot_temp_list) / len(hot_temp_list)
 
 print(f'Максимальная температура из жаркого списка {max_temp}')
 print(f'Минимальная температура из жаркого списка {min_temp}')
