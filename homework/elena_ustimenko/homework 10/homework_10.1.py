@@ -1,7 +1,7 @@
 def add_finish_log(func):
     def wrapper(*args):
         result = func(*args)
-        print(f'finished')
+        print('finished')
         return result
 
     return wrapper
@@ -10,5 +10,6 @@ def add_finish_log(func):
 @add_finish_log
 def example(text, number):
     print(text, number)
+
 
 example('123', 4)

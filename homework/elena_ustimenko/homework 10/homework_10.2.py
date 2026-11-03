@@ -1,9 +1,10 @@
 def repeat_me(func):
-    def wrapper(*args, count=2):
+    def wrapper(*args, count):
         x = 0
         while x < count:
             func(*args)
-            x += 1
+            x+=1
+
     return wrapper
 
 
@@ -11,4 +12,5 @@ def repeat_me(func):
 def print_text(text):
     print(text)
 
-print_text('123', count = 5)
+
+print_text('123', count=5)

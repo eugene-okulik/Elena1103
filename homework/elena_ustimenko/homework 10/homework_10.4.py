@@ -8,7 +8,7 @@ PRICE_LIST = '''тетрадь 50р
 
 
 price_list = PRICE_LIST.split('\n')
-price_list2  = [x.split(' ') for x in price_list]
+price_list2 = [x.split(' ') for x in price_list]
 
 price_dict = {name: int(price.replace('р', '')) for name, price in price_list2}
 
