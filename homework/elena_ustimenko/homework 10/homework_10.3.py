@@ -25,7 +25,7 @@ def arithmetic(func):
 
 @arithmetic
 def calc(first, second, operation):
-    if  operation == '+':
+    if operation == '+':
         return first + second
     elif operation == '-':
         return first - second
